@@ -27,5 +27,6 @@ phases:
      - echo `ls ./build`
      - echo `ls ./build/libs`
 artifacts:
-  commands:
-     - echo `pwd`
+  type: zip
+  files:
+    - '/codebuild/output/src887091066/src/github.com/ericjaystevens/gs-spring-boot/initial/build/libs/gs-spring-boot-0.1.0.jar'
