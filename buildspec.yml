@@ -12,7 +12,9 @@ phases:
      - echo Build started on `date`
      - ./initial/gradlew build
      - echo `pwd`
-     - echo `ls`
+     - echo `ls ./initial`
+     - echo `ls ./initial/build`
+     - echo `ls ./initial/build/libs`
 artifacts:
   type: zip
   files:
