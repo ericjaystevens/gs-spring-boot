@@ -29,4 +29,4 @@ phases:
 artifacts:
   type: zip
   files:
-    - '/codebuild/output/src887091066/src/github.com/ericjaystevens/gs-spring-boot/initial/build/libs/gs-spring-boot-0.1.0.jar'
+    - '/**/*'
