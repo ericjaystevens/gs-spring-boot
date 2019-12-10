@@ -27,8 +27,5 @@ phases:
      - echo `ls ./build`
      - echo `ls ./build/libs`
 artifacts:
-  type: zip
-  files:
-    - './build/libs/gs-spring-boot-0.1.0.jar'
   commands:
-     - pwd
+     - echo `pwd`
