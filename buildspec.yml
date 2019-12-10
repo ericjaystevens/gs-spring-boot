@@ -29,4 +29,6 @@ phases:
 artifacts:
   type: zip
   files:
-    - 'build/libs/*.jar'
+    - './build/libs/gs-spring-boot-0.1.0.jar'
+  commands:
+     - pwd
