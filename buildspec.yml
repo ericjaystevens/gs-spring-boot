@@ -15,7 +15,7 @@ phases:
      - echo `ls /codebuild/`
      - echo `ls /codebuild/output`
      - echo `ls /codebuild/output/src*`
-     - echo `ls /codebuild/output/src*/src
+     - echo `ls /codebuild/output/src*/src`
      - echo `ls /codebuild/output/src*/src/github.com`
      - echo `ls /codebuild/output/src*/src/github.com/ericjaystevens`
      - echo `ls /codebuild/output/src*/src/github.com/ericjaystevens`
