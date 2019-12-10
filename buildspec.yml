@@ -23,9 +23,9 @@ phases:
      - echo `ls /codebuild/output/src*/src/github.com/ericjaystevens`
      - echo `ls /codebuild/output/src*/src/github.com/ericjaystevens`
      - echo `ls /codebuild/output/src*/src/github.com/ericjaystevens/gs-spring-boot`
-     - echo `ls ./initial`
-     - echo `ls ./initial/build`
-     - echo `ls ./initial/build/libs`
+     - echo `ls ./`
+     - echo `ls ./build`
+     - echo `ls ./build/libs`
 artifacts:
   type: zip
   files:
