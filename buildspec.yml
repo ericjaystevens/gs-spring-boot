@@ -10,12 +10,13 @@ phases:
   build:
     commands:
      - echo Build started on `date`
-     - ./initial/gradlew build
+     - cd ./initial
+     - gradle build
      - echo `pwd`
      - echo `ls /codebuild/`
      - echo `ls /codebuild/output`
-     - echo `ls /codebuild/output\artifacts`
-     - echo `ls /codebuild/output\tmp`
+     - echo `ls /codebuild/output/artifacts`
+     - echo `ls /codebuild/output/tmp`
      - echo `ls /codebuild/output/src*`
      - echo `ls /codebuild/output/src*/src`
      - echo `ls /codebuild/output/src*/src/github.com`
