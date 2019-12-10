@@ -10,8 +10,8 @@ phases:
   build:
     commands:
      - echo Build started on `date`
-     - ./initial/gradlew build build
+     - ./initial/gradlew build
 artifacts:
   type: zip
   files:
-    - './build/libs/*.jar'
+    - './build/libs/gs-spring-boot-0.1.0.jar'
