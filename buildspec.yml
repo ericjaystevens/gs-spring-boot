@@ -29,4 +29,5 @@ phases:
 artifacts:
   type: zip
   files:
-    - 'initial/build/libs/*'
+    - '*'
+  base-directory: 'initial/build/libs'
