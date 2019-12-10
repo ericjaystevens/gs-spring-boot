@@ -1,0 +1,17 @@
+version: 0.1
+
+phases:
+  install:
+   runtime-versions:
+    java: corretto8
+   commands:
+     - echo Entering install phase...
+     - echo Nothing to do now
+  build:
+    commands:
+     - echo Build started on `date`
+     - ./initial/gradlew build build
+artifacts:
+  type: zip
+  files:
+    - './initial/build/libs/*.jar'
