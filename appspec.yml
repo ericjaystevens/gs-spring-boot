@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: s3://mssqldumppoc/demoForJoel/gs-spring-boot-0.1.0.jar
+    destination: /usr/loca/demo
+hooks:
+  BeforeInstall:
+    - location: scripts/before-install.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: scripts/after-install.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: scripts/stop.sh
+      timeout: 300
+      runas: root
