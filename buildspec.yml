@@ -27,7 +27,6 @@ phases:
      - echo `ls ./build`
      - echo `ls ./build/libs`
 artifacts:
-  type: zip
   files:
     - '*'
   base-directory: 'initial/build/libs'
