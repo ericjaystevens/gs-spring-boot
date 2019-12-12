@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: demoForJoel/gs-spring-boot-0.1.0.jar
-    destination: /usr/loca/demo
+  - source: initial/build/libs/gs-spring-boot-0.1.0.jar
+    destination: /usr/local/demo
 hooks:
   BeforeInstall:
     - location: scripts/before-install.sh
