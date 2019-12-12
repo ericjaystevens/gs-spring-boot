@@ -31,3 +31,10 @@ artifacts:
   files:
     - '*'
   base-directory: 'initial/build/libs'
+  secondary-artifacts:
+    appspec:
+      files:
+      - 'appspec.yml'
+    scripts:
+      files:
+        - 'scripts/*'

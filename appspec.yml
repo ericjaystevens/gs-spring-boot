@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: s3://mssqldumppoc/demoForJoel/gs-spring-boot-0.1.0.jar
+  - source: demoForJoel/gs-spring-boot-0.1.0.jar
     destination: /usr/loca/demo
 hooks:
   BeforeInstall:
