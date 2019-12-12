@@ -34,7 +34,7 @@ artifacts:
   secondary-artifacts:
     appspec:
       files:
-      - 'appspec.yml'
+        - 'appspec.yml'
     scripts:
       files:
         - 'scripts/*'
